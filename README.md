@@ -7,7 +7,7 @@ O ramo de restaurantes enfrenta desafios consideráveis na gestão eficaz das su
 
 A solução de gestão de mesas proposta, representa uma resposta abrangente aos desafios que os restaurantes enfrentam na gestão das suas mesas. Ao fornecer uma plataforma intuitiva, personalizável e baseada em dados, esperamos melhorar a eficiência operacional, aprimorar a experiência do cliente e promover o sucesso geral dos restaurantes que adotarem essa solução.
 
-<<<<<<<<Requisitos Funcionais>>>>>>>
+<<<--- Requisitos Funcionais ---->>>
 
 Reservas de Mesas: Os clientes devem poder fazer reservas de mesas selecionando a data, hora e número de pessoas.
 
@@ -21,7 +21,7 @@ Gerenciamento de Mesas: Os funcionários devem poder atribuir mesas aos clientes
 
 Relatórios e Análises: O sistema deve gerar relatórios sobre o desempenho do restaurante, incluindo taxa de ocupação das mesas, tempo médio de permanência dos clientes, etc.
 
-<<<<<<<Requisitos Não Funcionais>>>>>>
+<<<--- Requisitos Não Funcionais --->>>
 
 Usabilidade: A interface do usuário deve ser intuitiva e fácil de usar tanto para os clientes quanto para os funcionários do restaurante.
 
