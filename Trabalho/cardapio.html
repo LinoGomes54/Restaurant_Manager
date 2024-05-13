@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cardapio.css">
+    <title>Cardapio</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="assets/LogoSoled.png" alt="Logo do sistema"> <!-- logo do site -->
+        <nav> <!-- navegação principal do site atraves de links-->
+            <a id="home" href="http://127.0.0.1:5500/index.html">Home</a>
+            <a id="cardapio" href="http://127.0.0.1:5500/cardapio.html">Cardapio</a>
+            <a id="pedidos" href="">Pedidos</a>
+            <a id="reservas" href="">Reservas</a>
+        </nav>
+    </header>
+
+    <aside class="aside">
+        <section class="section">
+            <div class="boxMesas">
+                <div id="mesa1" onclick="listarPedidosM1()">Mesa 1</div>
+                <div id="mesa2" onclick="listarPedidosM2()">Mesa 2</div>
+                <div id="mesa3" onclick="listarPedidosM3()">Mesa 3</div>
+                <div id="mesa4" onclick="listarPedidosM4()">Mesa 4</div>
+                <div id="mesa5" onclick="listarPedidosM5()">Mesa 5</div>
+                <div id="mesa6" onclick="listarPedidosM6()">Mesa 6</div>
+            </div>
+
+            <div class="box">
+                <div id="texto">
+                    <form id="form">
+                        <div id="form_box">
+                            <h2 id="descricao">Pedidos</h2>
+                        </div>
+                        <div id="form_box_itens">
+                            <ul>
+                                <li  class="item_cardapio" id="item_cardapio1"></li>
+                                <li class="item_cardapio" id="item_cardapio2"></li>
+                                <li class="item_cardapio" id="item_cardapio3"></li>
+                                <li class="item_cardapio" id="item_cardapio4"></li>
+                                <li class="item_cardapio" id="item_cardapio5"></li>
+                                <li class="item_cardapio" id="item_cardapio6"></li>
+                                <li class="item_cardapio" id="item_cardapio6"></li>
+                            </ul>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <script>
+
+
+        var txt = document.getElementById("descricao")
+        var item_cardapio = document.getElementsByClassName("item_cardapio")
+        var i;
+        for (i = 0; i < item_cardapio.length; i++) {
+            item_cardapio[i].innerHTML += "";
+        }
+      
+       
+
+        List1 = ["Peperonni", "Pizza", "Coca", "Fanta", "sorvete", "Suco"]
+        List2 = ["Macarrao", "Guarana", "batata frita"]
+        function listarPedidosM1() {
+
+            if (txt.innerHTML == txt.innerText) {
+                for (i = 0; i < List1.length; i++) {
+                    txt.innerHTML = "Mesa 1"
+                    item_cardapio[i].innerHTML += List1[i] + "<br><br>"
+                }
+            }
+        }
+
+        function listarPedidosM2() {
+
+            if (txt.innerHTML == txt.innerText) {
+                for (i = 0; i < List2.length; i++) {
+                    txt.innerHTML = "Mesa 2"
+                    item_cardapio[i].innerHTML += List2[i] + "<br><br>"
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
