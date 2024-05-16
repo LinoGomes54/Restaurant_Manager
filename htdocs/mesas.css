@@ -1,0 +1,100 @@
+@font-face {
+    font-family: cyber;
+    src: url(Oxanium.woff2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cyber;
+}
+
+#principal {
+    background-color: yellow;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: justify;
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+.centro {
+    background-color: rgb(41,41,41);
+    text-align: center;
+    padding: 20px;
+}
+
+.centro2 {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    font-family: cyber;
+}
+
+
+
+.formata {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.banner {
+    font-size: max(400px, 200px);
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#rodape {
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    font-family: cyber;
+}
+
+.divi {
+    display: inline-block;
+    background-color: yellow;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#btnRegistrar{
+    border-style: outset;
+    border-width: 10px;
+    border-color: black;
+    color: black !important;
+}
