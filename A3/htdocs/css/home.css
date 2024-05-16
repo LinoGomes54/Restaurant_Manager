@@ -1,0 +1,51 @@
+@font-face{
+    font-family: cyber;
+    src:url(Oxanium.woff2);
+}
+
+#principal{
+    background-color: yellow;
+}
+p { color: rgb(0, 0, 0);
+    font-family: cyber;
+    font-size: 15px;
+    text-align: justify;
+}
+h1 { 
+    font-weight: bold;
+    font-family: cyber;
+    color: black;
+}
+.centro{
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    align-items: center;
+}
+.formata{
+    text-align: center;
+    background-color: black;
+}
+.banner{
+    font-size: max(400px, 200px);
+    height: 400px;
+    background-color: black;
+    text-align: center;
+}
+#rodape{
+    text-align: center;
+    background-color: rgb(41,41,41);
+}
+button{
+    font-family: cyber;
+}
+.divi{
+    display: inline-block;
+    background-color: yellow;
+    font-family: cyber;
+}
+a{
+    font-family: cyber;
+    font-style: normal;   
+    color: aliceblue;
+    text-decoration: none;
+}
