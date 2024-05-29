@@ -7,32 +7,72 @@ O ramo de restaurantes enfrenta desafios consideráveis na gestão eficaz das su
 
 A solução de gestão de mesas proposta, representa uma resposta abrangente aos desafios que os restaurantes enfrentam na gestão das suas mesas. Ao fornecer uma plataforma intuitiva, personalizável e baseada em dados, esperamos melhorar a eficiência operacional, aprimorar a experiência do cliente e promover o sucesso geral dos restaurantes que adotarem essa solução.
 
-<<<--- Requisitos Funcionais ---->>>
+Requisitos do Sistema de Gerenciamento de Pedidos
 
-Reservas de Mesas: Os clientes devem poder fazer reservas de mesas selecionando a data, hora e número de pessoas.
+Requisitos Funcionais
 
-Check-in de Clientes: Os clientes devem poder fazer check-in facilmente quando chegarem ao restaurante, confirmando sua reserva.
+Cadastro de Pedidos
 
-Mapa de Mesas Interativo: Os funcionários devem poder visualizar o layout do restaurante e a disponibilidade das mesas em tempo real.
+O sistema deve permitir que os usuários adicionem novos pedidos.
 
-Integração de Pagamento: Os clientes devem poder pré-pagar suas reservas online, se desejarem.
+Cada pedido deve incluir:
 
-Gerenciamento de Mesas: Os funcionários devem poder atribuir mesas aos clientes com base em suas reservas e no fluxo atual do restaurante.
+Nome do pedido (pedido)
 
-Relatórios e Análises: O sistema deve gerar relatórios sobre o desempenho do restaurante, incluindo taxa de ocupação das mesas, tempo médio de permanência dos clientes, etc.
+Nome do garçom que atendeu (nome_garçom)
 
-<<<--- Requisitos Não Funcionais --->>>
+Preço do pedido (valor)
 
-Usabilidade: A interface do usuário deve ser intuitiva e fácil de usar tanto para os clientes quanto para os funcionários do restaurante.
+Listagem de Pedidos
 
-Desempenho: O sistema deve ser capaz de lidar com picos de tráfego durante horários de pico, sem comprometer o desempenho.
+O sistema deve exibir uma lista de todos os pedidos cadastrados.
 
-Segurança: O sistema deve garantir a segurança dos dados dos clientes, incluindo informações de pagamento e detalhes de reserva.
+A lista deve ser atualizada automaticamente quando um novo pedido for adicionado ou deletado.
 
-Disponibilidade: O sistema deve estar disponível 24 horas por dia, 7 dias por semana, para permitir que os clientes façam reservas a qualquer momento.
+Pedidos Deletaveis
 
-Escalabilidade: O sistema deve ser capaz de escalar conforme necessário para lidar com o crescimento do número de clientes e restaurantes que o utilizam.
+O sistema deve permitir que os usuários deletem pedidos existentes.
 
-Compatibilidade: O sistema deve ser compatível com uma variedade de dispositivos e navegadores para garantir uma ampla acessibilidade.
+A deleção deve ser confirmada pelo usuário antes de ser realizada.
+
+Página Inicial
+
+O sistema deve ter uma página inicial que apresenta informações sobre o projeto.
+
+Página de Cardápio
+
+O sistema deve ter uma página que exibe um cardápio fictício do restaurante.
+
+Requisitos Não Funcionais
+
+Usabilidade
+
+A interface do usuário deve ser intuitiva e fácil de usar.
+
+O design deve ser responsivo, garantindo boa usabilidade em diferentes dispositivos e tamanhos de tela.
+
+Performance
+
+O sistema deve ser capaz de processar e exibir pedidos de forma rápida e eficiente.
+
+A adição e deleção de pedidos devem ser realizadas sem atrasos perceptíveis.
+
+Confiabilidade
+
+O sistema deve ser robusto, evitando falhas e comportamentos inesperados.
+
+Deve ser implementada validação de entrada de dados para garantir a integridade dos dados cadastrados.
+
+Compatibilidade
+
+O sistema deve ser compatível com os principais navegadores web (Chrome, Firefox, Safari, Edge).
+
+O backend deve ser configurável para funcionar em diferentes ambientes de desenvolvimento e produção.
+
+Escalabilidade
+
+A arquitetura do sistema deve permitir a escalabilidade para lidar com um aumento no número de pedidos e usuários.
+
+O banco de dados e o servidor devem ser capazes de suportar o crescimento do uso do sistema.
 
 OBSERVAÇÃO: Muitos destes requisitos estão sujeitos a alteração, ou não integração no sistema final.
