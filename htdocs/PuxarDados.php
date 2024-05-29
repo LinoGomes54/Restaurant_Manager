@@ -1,40 +1,27 @@
 <?php
-// Conexão com o banco de dados (substitua pelos seus detalhes de conexão)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "restaurante";
+// PuxarDados.php
+include 'conn.php';
 
-try {
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$sql = "SELECT * FROM pedidos";
+$result = $conn->query($sql);
 
-    // Query SQL para selecionar todos os registros da tabela "pedidos"
-    $sql = "SELECT * FROM pedidos";
-
-    // Prepara a query
-    $stmt = $conn->prepare($sql);
-
-    // Executa a query
-    $stmt->execute();
-
-    // Retorna um array associativo contendo todas as linhas do conjunto de resultados
-    $pedidos = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-    // Exibe os pedidos dentro da tabela HTML
-    foreach ($pedidos as $pedido) {
-        echo "<tr>";
-        echo "<td>" . $pedido['garcom'] . "</td>";
-        echo "<td>" . $pedido['mesa'] . "</td>";
-        echo "<td>" . $pedido['horario_pedido'] . "</td>";
-        echo "<td>" . $pedido['pedido'] . "</td>";
-        echo "</tr>";
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo "<tr>
+                <td>" . $row["garcom"] . "</td>
+                <td>" . $row["mesa"] . "</td>
+                <td>" . $row["pedido"] . "</td>
+                <td>" . $row["horario_pedido"] . "</td>
+                <td>
+                    <form action='deletar.php' method='post' style='display:inline;'>
+                        <input type='hidden' name='id' value='" . $row["id"] . "'>
+                        <button type='submit' class='delete-button'>Deletar</button>
+                    </form>
+                </td>
+            </tr>";
     }
-} catch(PDOException $e) {
-    // Em caso de erro na conexão ou execução da query, exibe o erro
-    echo "Erro: " . $e->getMessage();
+} else {
+    echo "<tr><td colspan='5'>Nenhum pedido encontrado</td></tr>";
 }
-
-// Fecha a conexão com o banco de dados
-$conn = null;
+$conn->close();
 ?>
