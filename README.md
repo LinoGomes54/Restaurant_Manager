@@ -7,6 +7,7 @@ O ramo de restaurantes enfrenta desafios consideráveis na gestão eficaz das su
 
 A solução de gestão de mesas proposta, representa uma resposta abrangente aos desafios que os restaurantes enfrentam na gestão das suas mesas. Ao fornecer uma plataforma intuitiva, personalizável e baseada em dados, esperamos melhorar a eficiência operacional, aprimorar a experiência do cliente e promover o sucesso geral dos restaurantes que adotarem essa solução.
 
+_________________________________________________________________________________________________________________________________________________________________________________
 Requisitos do Sistema de Gerenciamento de Pedidos
 
 Requisitos Funcionais
