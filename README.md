@@ -1,4 +1,5 @@
 **Gerência de Restaurante**
+
 Site para gerenciar pedidos de um restaurante, colocando pedidos de uma mesa e posteriormente gerenciando até o pedido final do cliente.
 
 **Sobre Nosso Sistema**
@@ -8,11 +9,16 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 
 **Tecnologias Utilizadas**
 -Frontend: HTML, CSS, JavaScript
+
 -Backend: Java Script, PhP
+
 -Banco de Dados: MySQL
 
 **Benefícios do Sistema**
 -Redução de Erros: Menos erros na tomada de pedidos.
+
 -Eficiência: Processo de pedidos mais rápido e organizado.
+
 -Acompanhamento: Melhor gestão e controle de pedidos.
+
 -Atendimento ao Cliente: Melhoria na experiência do cliente.
