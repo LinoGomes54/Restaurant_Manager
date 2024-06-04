@@ -1,13 +1,13 @@
-**Gerência de Restaurante**
+###Gerência de Restaurante
 
 Site para gerenciar pedidos de um restaurante, colocando pedidos de uma mesa e gerenciando os pedidos até o fechamento da conta do cliente.
 
-**Sobre Nosso Sistema**
+##Sobre Nosso Sistema**
 
 O ramo de restaurantes enfrenta desafios consideráveis na gestão eficaz das suas mesas. Desde a organização das reservas até ao acompanhamento do fluxo de clientes, o gerenciamento das mesas pode ser uma tarefa complexa. Para enfrentar essa necessidade, propomos desenvolver um sistema de gestão de mesas para restaurantes.
 A solução de gestão de mesas proposta, representa uma resposta abrangente aos desafios que os restaurantes enfrentam na gestão das suas mesas. Ao fornecer uma plataforma intuitiva, personalizável e baseada em dados, esperamos melhorar a eficiência operacional, aprimorar a experiência do cliente e promover o sucesso geral dos restaurantes que adotarem essa solução.
 
-**Tecnologias Utilizadas**
+##Tecnologias Utilizadas
 
 -Frontend: HTML, CSS, JavaScript
 
@@ -15,7 +15,7 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 
 -Banco de Dados: MySQL
 
-**Benefícios do Sistema**
+##Benefícios do Sistema
 
 -**Redução de Erros:** Menos erros na tomada de pedidos.
 
@@ -25,6 +25,8 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 
 -**Atendimento ao Cliente:** Melhoria na experiência do cliente.
 
-**Visualização do Site**
+##Imagens
 
+[https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg]
+<img src="https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg" alt="Texto Alternativo">
 <img src="https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg" alt="Texto Alternativo">
