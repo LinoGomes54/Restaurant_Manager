@@ -8,6 +8,7 @@ O ramo de restaurantes enfrenta desafios consideráveis na gestão eficaz das su
 A solução de gestão de mesas proposta, representa uma resposta abrangente aos desafios que os restaurantes enfrentam na gestão das suas mesas. Ao fornecer uma plataforma intuitiva, personalizável e baseada em dados, esperamos melhorar a eficiência operacional, aprimorar a experiência do cliente e promover o sucesso geral dos restaurantes que adotarem essa solução.
 
 **Tecnologias Utilizadas**
+
 -Frontend: HTML, CSS, JavaScript
 
 -Backend: Java Script, PhP
@@ -15,10 +16,11 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 -Banco de Dados: MySQL
 
 **Benefícios do Sistema**
--Redução de Erros: Menos erros na tomada de pedidos.
 
--Eficiência: Processo de pedidos mais rápido e organizado.
+-**Redução de Erros:** Menos erros na tomada de pedidos.
 
--Acompanhamento: Melhor gestão e controle de pedidos.
+-**Eficiência:** Processo de pedidos mais rápido e organizado.
 
--Atendimento ao Cliente: Melhoria na experiência do cliente.
+-**Acompanhamento:** Melhor gestão e controle de pedidos.
+
+-**Atendimento ao Cliente:** Melhoria na experiência do cliente.
