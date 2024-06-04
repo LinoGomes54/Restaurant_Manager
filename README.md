@@ -24,3 +24,7 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 -**Acompanhamento:** Melhor gestão e controle de pedidos.
 
 -**Atendimento ao Cliente:** Melhoria na experiência do cliente.
+
+**Visualização do Site**
+
+[Home](https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg)
