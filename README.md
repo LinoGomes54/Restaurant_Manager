@@ -9,23 +9,23 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 
 ## Tecnologias Utilizadas
 
-+**Frontend:** HTML, CSS, JavaScript
+***Frontend:** HTML, CSS, JavaScript
 
-+**Backend:** Java Script, PhP
+***Backend:** Java Script, PhP
 
-+**Banco de Dados:** MySQL
+***Banco de Dados:** MySQL
 
 ##Benefícios do Sistema
 
-+**Redução de Erros:** Menos erros na tomada de pedidos.
+***Redução de Erros:** Menos erros na tomada de pedidos.
 
-+**Eficiência:** Processo de pedidos mais rápido e organizado.
+***Eficiência:** Processo de pedidos mais rápido e organizado.
 
-+**Acompanhamento:** Melhor gestão e controle de pedidos.
+***Acompanhamento:** Melhor gestão e controle de pedidos.
 
-+**Atendimento ao Cliente:** Melhoria na experiência do cliente.
+***Atendimento ao Cliente:** Melhoria na experiência do cliente.
 
-## Imagens
+*# Imagens
 ### Introdução
 
 ![](https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg)
