@@ -25,7 +25,6 @@ A solução de gestão de mesas proposta, representa uma resposta abrangente aos
 
 -**Atendimento ao Cliente:** Melhoria na experiência do cliente.
 
-##Imagens
+##Imagens##
 ![](https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg)
-<img src="https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg" alt="Texto Alternativo">
-<img src="https://i.pinimg.com/736x/fe/36/d7/fe36d78f1e207a63eed39056d6f3760f.jpg" alt="Texto Alternativo">
+
