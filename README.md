@@ -1,6 +1,6 @@
 **Gerência de Restaurante**
 
-Site para gerenciar pedidos de um restaurante, colocando pedidos de uma mesa e posteriormente gerenciando até o pedido final do cliente.
+Site para gerenciar pedidos de um restaurante, colocando pedidos de uma mesa e gerenciando os pedidos até o fechamento da conta do cliente.
 
 **Sobre Nosso Sistema**
 
